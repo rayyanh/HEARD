@@ -242,7 +242,7 @@ label {
 }
 
 button {
-    border-radius: 0;
+    border-radius: 10;
 }
 
 button:focus {
@@ -10184,12 +10184,8 @@ a.text-dark:focus {
 
 /*My additions  */
 
-.primaryColor {
-    color: #f2d7ee;
-}
-
 .secondaryColor {
-    color: #372549;
+    color: #b54440;
 }
 
 .padpad {
@@ -10202,4 +10198,19 @@ a.text-dark:focus {
         padding-left: 0%;
         padding-right: 0%;
     }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.shrink {
+    font-size: 80%;
+}
+
+.makeCenter {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
